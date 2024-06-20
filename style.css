@@ -107,28 +107,22 @@ input[type="tel"] {
   margin-bottom: 20%;
 }
 
-.tixt {
-  margin-bottom: 35%;
-}
-
 .cheese-button {
   display: inline-block;
   width: calc(100% - 100px);
   height: 60px;
+  margin-top: 35%;
   padding: 12px;
+  font-size: 20px;
+  font-weight: 700;
   border: none;
   border-radius: 9px;
-  background-color: #f6a3a5;
   background-size: 400% 400%;
   background-image: linear-gradient(45deg, #f6a3a5, #f05a40, #fff56c, #aead0d);
   transition: background-position 0.5s;
   cursor: pointer;
   color: #fff;
-  font-size: 20px;
-  font-weight: 700;
-  text-decoration: none;
-  justify-content: center;
-  line-height: 60px;
+  background-color: #f6a3a5;
 }
 
 .cheese-button:hover {
